@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(to right, #0000FF, #00BFFF);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(to right, #0000FF, #87CEFA);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.background-image {
+    position: relative;
+    background-image: url('home-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #00CCCC;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #00B2B2;
+}
+
+.about-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about-section img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.services-section {
+    background-color: #0000FF;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h4 ul {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.contact-section {
+    background-color: #0000FF;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+form input,
+form textarea {
+    display: block;
+}

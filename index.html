@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JANSO</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="JANSO Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="background-image">
+            <div class="content">
+                <h4>Sales Representative</h4>
+                <h1>Local representation<br>that makes a difference.</h1>
+                <a href="#contact" class="button">I want to be represented</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-section">
+            <h2>About Us</h2>
+            <h4>We are sales representatives for the electronics industry, with extensive experience in lead generation and interaction with distribution channels in LATAM. Our focus is on providing a value proposition tailored to the needs of our clients and the reality of the market we operate in.</h4>
+            <img src="about-image.png" alt="About Image">
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services-section">
+            <h2>Our Services</h2>
+            <h4>
+                <ul>
+                    <li>Desarrollo de mercado</li>
+                    <li>Manejo y soporte a clientes directos</li>
+                    <li>Soporte técnico y comercial local</li>
+                    <li>Promoción de productos</li>
+                    <li>Organización de seminarios técnicos</li>
+                    <li>Gerenciamiento de distribuidores locales y regionales</li>
+                </ul>
+            </h4>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-section">
+            <h2>Contact Us!</h2>
+            <h5>Leave your comments and we'll reach out to you.</h5>
+            <form id="contact-form" action="send_email.php" method="post">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Message"></textarea>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree-checkbox">
+                    <label for="agree-checkbox">I agree that my data will be used for the purpose of providing me with services, products, and assistance.</label>
+                </div>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-section">
+            <div class="location">
+                <img src="location-icon.png" alt="Location Icon">
+                <p>Buenos Aires</p>
+            </div>
+            <div class="contact-info">
+                <img src="whatsapp-icon.png" alt="WhatsApp Icon">
+                <p>+5491136440385</p>
+                <img src="mail-icon.png" alt="Mail Icon">
+                <p>webcontact@janso.com.ar</p>
+            </div>
+        </div>
+        <div class="developer-info">
+            <p>Developed by <a href="https://portfolio.com">Developer Portfolio</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
