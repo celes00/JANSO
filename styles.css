@@ -16,10 +16,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    z-index: 1; /* Asegura que el header esté por encima de otros elementos */
 }
 
+
 .logo img {
-    height: 40px;
+    height: auto;
+    width: 110px; /* Ajusta el valor según el tamaño deseado */
+    margin-top: 24px; /* Ajusta el valor según el margen superior deseado */
+    margin-bottom: 16px; /* Ajusta el valor según el margen inferior deseado */
+    margin-left: 0px; /* Ajusta el valor para el desplazamiento hacia la derecha */
 }
 
 nav ul {
@@ -99,6 +105,28 @@ h4 {
 .about-section img {
     width: 100%;
     margin-top: 40px;
+}
+.lines-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.line-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.line-logos img {
+    width: 150px;
+    margin: 0 10px;
 }
 
 .services-section {
