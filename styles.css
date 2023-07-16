@@ -1,3 +1,5 @@
+/* El diseno esta pensado mobil first, este es para mobil mobil , coloco cada seccion dentro de contenedores C1.. C2.. etc, pensando en que sea mas visible para los otros sizes*/
+
 body {
     background: linear-gradient(to right, #0000FF, #87CEFA);
     margin: 0;
