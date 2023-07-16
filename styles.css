@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #0000FF, #00BFFF);
+    background: linear-gradient(to right, #0000FF, #87CEFA);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -50,18 +50,31 @@ section {
 
 .background-image {
     position: relative;
-    background-image: url('home-image.jpg');
+    background-image: url('./img/backgroundHome.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
+section#home::before { /*pongo un filtro para que no sea  brillante*/
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 44%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de opacidad aquí */
+    z-index: 0;
+}
 .content {
     text-align: center;
-    color: #fff;
+    color: #f8f5f5;
+    background-color: rgba(0, 0, 0, 0.3);/* Ajusta el valor de opacidad aquí */
+    width: 100%;
 }
+     
 
 h4 {
     font-size: 24px;
@@ -78,6 +91,7 @@ h1 {
     color: #fff;
     padding: 10px 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
@@ -92,6 +106,23 @@ h1 {
     padding: 40px;
 }
 
+.about-section h2{
+    margin-left: 20%;
+    margin-right: 20%
+
+}
+.about-section h4{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.about-section img {
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+}
+
 h2 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -100,12 +131,10 @@ h2 {
 h4 {
     font-size: 18px;
     line-height: 1.5;
+    text-align: center; /* Añadido para centrar el texto */
 }
 
-.about-section img {
-    width: 100%;
-    margin-top: 40px;
-}
+
 .lines-section {
     background-color: #fff;
     text-align: center;
