@@ -1,0 +1,279 @@
+body {
+    background: linear-gradient(to right, #0000FF, #87CEFA);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(to right, #0000FF, #87CEFA);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1; /* Asegura que el header esté por encima de otros elementos */
+}
+
+
+.logo img {
+    height: auto;
+    width: 110px; /* Ajusta el valor según el tamaño deseado */
+    margin-top: 24px; /* Ajusta el valor según el margen superior deseado */
+    margin-bottom: 16px; /* Ajusta el valor según el margen inferior deseado */
+    margin-left: 0px; /* Ajusta el valor para el desplazamiento hacia la derecha */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 0;
+    margin-bottom: -201px;
+}
+
+.background-image {
+    position: relative;
+    background-image: url('./img/backgroundHome.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    align-items: center;
+}
+
+section#home::before { /*pongo un filtro para que no sea  brillante*/
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 48vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de opacidad aquí */
+    z-index: 0;
+}
+.content {
+    text-align: center;
+    color: #f8f5f5;
+    background-color: rgba(0, 0, 0, 0.3);/* Ajusta el valor de opacidad aquí */
+    width: 100%;
+}
+     
+
+h4 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #00CCCC;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #00B2B2;
+}
+
+.about-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.about-section h2{
+    margin-left: 20%;
+    margin-right: 20%
+
+}
+.about-section h4{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.about-section img {
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center; /* Añadido para centrar el texto */
+}
+
+
+.lines-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.line-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.line-logos img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.services-section {
+    background: linear-gradient(to right, #0000FF, #87CEFA);
+    color: #fff;
+    padding: 40px;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+
+.services-section h4 ul {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 32%;
+    margin-top: 20px;
+}
+
+.contact-section {
+    background: linear-gradient(to right, #0000FF, #87CEFA);
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    margin-right: 10px;
+  }
+  
+  .input-group.message-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .input-group.message-group textarea {
+    flex: 1;
+    width: calc(100% - -160px); /* Resta el margen derecho e izquierdo de los campos superiores */
+    margin-right: 20px; /* Agrega un margen derecho para separar del campo derecho superior */
+    margin-left: 10px; /* Agrega un margen izquierdo para separar del campo */
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  
+/* form input,
+form textarea {
+    display: block;
+}
+ */
+ footer {
+    background-color:linear-gradient(to right, #0000FF, #87CEFA);
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .location img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .contact-info{
+    display: flex;
+  }
+
+  .contact-info img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .developer-info {
+    text-align: right;
+    font-size: 80%;
+  }
+  
+  .developer-info a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+  }
+  
+  .developer-info a:hover {
+    text-decoration: underline;
+  }
