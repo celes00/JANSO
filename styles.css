@@ -1,0 +1,9 @@
+*{  /* normaliza el documento para todos los navegadores web */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.c1 {background-color: aqua;}
+.c2{ background-color: chartreuse;}
+.c3{background-color: darkgoldenrod;}
