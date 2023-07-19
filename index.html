@@ -25,76 +25,31 @@
     </header>
 
     <main> <!-- seccion home c21, about us c22, lines c23, our services c24, contact c25 -->
-        <div class="container c2">
+        <div id="contact" class="container c2">
          <h2>Contact Us!</h2>
          <h5>Leave your comments and we'll reach out to you.</h5>
 
-            <form class="row g-3 needs-validation" novalidate>
-                <div class="col-md-4">
-                  <label for="validationCustom01" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                  <div class="valid-feedback">
-                    ¡Se ve bien!
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustom02" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                  <div class="valid-feedback">
-                    ¡Se ve bien!
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                      Por favor, elije un nombre de usuario.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label for="validationCustom03" class="form-label">Ciudad</label>
-                  <input type="text" class="form-control" id="validationCustom03" required>
-                  <div class="invalid-feedback">
-                    Proporciona una ciudad válida.
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustom04" class="form-label">Estado</label>
-                  <select class="form-select" id="validationCustom04" required>
-                    <option selected disabled value="">Elige...</option>
-                    <option>...</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Selecciona un estado válido.
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustom05" class="form-label">Código postal</label>
-                  <input type="text" class="form-control" id="validationCustom05" required>
-                  <div class="invalid-feedback">
-                    Proporciona un código postal válido.
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Acepta los términos y condiciones
-                    </label>
-                    <div class="invalid-feedback">
-                      Debe estar de acuerdo antes de enviar.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Enviar formulario</button>
-                </div>
-              </form>
-         </h2>
-    </div>
+        <form  id="contact-form" class="row g-3 needs-validation" novalidate action="" method="">
+            <div class="col-md-4 input-group">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+            <div class="col-md-4 input-group">   
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+
+            <div class="col-md-4 input-group">
+                    <input type="text" name="company" id="consulted-company" placeholder="Company Name" required>
+            </div>
+            <div class="col-md-4 input-group message-group">   
+                <textarea name="message" id="message" placeholder="Your message" required></textarea>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="agree-checkbox" required>
+                <label for="agree-checkbox">I agree that my data will be used for the purpose of providing me with services, products, and assistance.</label>
+              </div>
+              <button type="submit" class="button">Send</button>
+        </form>
+        </div>
     </main>
     <footer> <!-- datos contacto c31, firma c32 -->
         <div class="container c3">
