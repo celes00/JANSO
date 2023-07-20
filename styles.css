@@ -16,11 +16,22 @@
 /*Estilo about-us c22*/
 .c22 {
     padding-bottom: 4vh;
+    padding-top: 20px;
+}
+
+.c22 h2{
+    padding-bottom: 4vh;
+}
+.c22 img {
+    width: 100%;
+    height: cover;
+    padding-top: 20px;
 }
 
 /*Estilo lines c23*/
 .c23 h2 {
     padding-bottom: 8vh;
+    padding-top: 6vh;
 }
 
 
@@ -31,19 +42,26 @@
     flex-direction: column;
 }
 
-img {
+.c23 img {
     width: 26vh;
     height: auto;
     padding-bottom: 4vb;
 }
 
-/*Estilo formulario c24*/
+/*Estilo our-services c24*/
 .c24 {
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
-
+/*Estilo contact c25*/
+.c25 h2 {
+    padding-top: 20px;
+}
+.c25 h6 {
+    padding-bottom: 20px;
+    
+}
 
 
 /*Estilos footer*/
