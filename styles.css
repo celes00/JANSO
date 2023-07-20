@@ -7,8 +7,27 @@
 .c1 {background-color: aqua;}
 .c2{ background-color: chartreuse;}
 .c3{background-color: darkgoldenrod;}
- 
+
+
+/*Estilos C2*/
+/*Estilo formulario*/
+.c2 {
+    padding-bottom: 20px;
+}
+
+.c24 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
 /*Estilos footer*/
+.c3 {
+    padding-top: 10px;
+}
+
 /*Estilos location*/
 .logo-location{   
     width: 2vh;
