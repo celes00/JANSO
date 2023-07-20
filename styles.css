@@ -5,16 +5,31 @@
 }
 
 .c1 {background-color: aqua;}
-.c2{ background-color: chartreuse;}
+.c2{ background-color: rgb(111, 0, 255);}
 .c3{background-color: darkgoldenrod;}
 
 
 /*Estilos C2*/
-/*Estilo formulario*/
 .c2 {
     padding-bottom: 20px;
 }
 
+/*Estilo lines c23*/
+.c23 h2 {
+    padding-bottom: 20px;
+}
+
+.c23 .line-logos {
+    padding-bottom: 20px;
+}
+
+img {
+    width: 15vh;
+    height: auto;
+    padding-left: 1vb;
+}
+
+/*Estilo formulario c24*/
 .c24 {
     padding-bottom: 20px;
     padding-top: 20px;
