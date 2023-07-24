@@ -8,6 +8,51 @@
 .c2{ background-color: rgb(111, 0, 255);}
 .c3{background-color: darkgoldenrod;}
 
+.c1 {
+   
+}
+/*Estilos C21*/
+.card-title {
+     margin-bottom: 0;
+}
+
+.c21{  /*para que la imagen ocupe el 100% del ancho, anula boostrap*/
+    padding-right: 0;
+    padding-left: 0;
+    height: 66vh;
+    overflow: hidden;
+}
+.c21 .row 
+{
+    height: 66vh;
+}
+.c21 img{
+    width: fit-content;
+    height: 100%;
+}
+.c21 h3, h1, a { 
+    padding-right: calc(var(--bs-gutter-x) * .5);  /*para que el texto y el boton tenga margenes*/
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.c21 .h1, h1 {
+    font-size: 3em;
+    margin-bottom: 10vh;
+    margin-top: 4VH;
+}
+.c21 .h3, h3 {
+    margin-top: 3vh;
+}
+
+.c21 .button {/*estilos boton*/
+    text-decoration: none; /* Elimina el subrayado del texto */
+    background-color: #a5e5f5; 
+    color: #000000;
+    padding: 1vh;
+    border-radius: 1vh
+}
+
+
 
 /*Estilos C2*/
 .c2 {
@@ -17,10 +62,19 @@
 .c22 {
     padding-bottom: 4vh;
     padding-top: 20px;
+    padding-right: 0; /*para que la imagen ocupe el 100% del ancho, anula boostrap*/
+    padding-left: 0;
 }
 
 .c22 h2{
     padding-bottom: 4vh;
+    padding-right: calc(var(--bs-gutter-x) * .5); /*para que el texto tenga margenes*/
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.c22 h6{
+    padding-right: calc(var(--bs-gutter-x) * .5);  /*para que el texto tenga margenes*/
+    padding-left: calc(var(--bs-gutter-x) * .5);
 }
 .c22 img {
     width: 100%;
