@@ -8,9 +8,7 @@
 .c2{ background-color: rgb(111, 0, 255);}
 .c3{background-color: darkgoldenrod;}
 
-.c1 {
-   
-}
+
 /*Estilos C21*/
 .card-title {
      margin-bottom: 0;
@@ -49,7 +47,8 @@
     background-color: #a5e5f5; 
     color: #000000;
     padding: 1vh;
-    border-radius: 1vh
+    border-radius: 1vh;
+    margin-left: 9vh;
 }
 
 
@@ -68,13 +67,15 @@
 
 .c22 h2{
     padding-bottom: 4vh;
-    padding-right: calc(var(--bs-gutter-x) * .5); /*para que el texto tenga margenes*/
-    padding-left: calc(var(--bs-gutter-x) * .5);
+     /*para que el texto tenga margenes*/
+    padding-left: 6vh;
+    padding-right: 6vh;
 }
 
 .c22 h6{
-    padding-right: calc(var(--bs-gutter-x) * .5);  /*para que el texto tenga margenes*/
-    padding-left: calc(var(--bs-gutter-x) * .5);
+     /*para que el texto tenga margenes*/
+    padding-left: 6vh;
+    padding-right: 6vh;
 }
 .c22 img {
     width: 100%;
@@ -86,11 +87,13 @@
 .c23 h2 {
     padding-bottom: 8vh;
     padding-top: 6vh;
+    margin-left: 22%;
+    font-size: 8vh;
 }
 
 
 .c23 .line-logos {
-    padding-bottom: 20px;
+    padding-bottom: 7vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -101,22 +104,55 @@
     height: auto;
     padding-bottom: 4vb;
 }
+.c23 a{
+    margin-bottom: 4vh;
+}
 
 /*Estilo our-services c24*/
 .c24 {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+.c24 h2{
+    font-size: 8vh;
+    margin-left: 15%;
+}
+
+.c24 ul{
+    font-size: 4vh;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 3vh;
+}
+
 
 /*Estilo contact c25*/
 .c25 h2 {
     padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 6vh;
 }
 .c25 h6 {
     padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 4vh;
     
 }
 
+.c25 form {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.c25 button{
+    text-decoration: none; /* Elimina el subrayado del texto */
+    background-color: #a5e5f5; 
+    color: #000000;
+    padding: 1vh;
+    border-radius: 1vh;
+}
 
 /*Estilos footer*/
 .c3 {
@@ -128,7 +164,7 @@
     width: 2vh;
     height: auto;
     filter: brightness(0) invert(1) grayscale(1);
-    margin-right: 1vh;
+    margin-right: -1vh;
 }
 
 .location p{   
