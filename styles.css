@@ -26,8 +26,9 @@
 }
 .c21 img{
     height: 100%;
-    max-width: 100%;
+    width: fit-content;
 }
+
 .c21 h3, h1, a { 
     padding-right: calc(var(--bs-gutter-x) * .5);  /*para que el texto y el boton tenga margenes*/
     padding-left: calc(var(--bs-gutter-x) * .5);

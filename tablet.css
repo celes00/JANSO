@@ -1,0 +1,6 @@
+/*Estilos C21*/
+.c21 img{
+    height: 100%;
+    width: auto; /* Anulamos el fit-content */
+    max-width: 100%;
+}
