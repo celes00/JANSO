@@ -4,3 +4,27 @@
     width: auto; /* Anulamos el fit-content */
     max-width: 100%;
 }
+.c21 h3{
+    font-size: 5vh;
+}
+
+.c21 h1{
+    font-size: 8vh;
+}
+
+.c21 .button{
+    font-size: 4vh;
+}
+
+
+
+/*Estilo about-us c22*/
+
+.c22 h2{
+    padding-top: 5vh;
+    font-size: 6vh;
+}
+
+.c22 img{
+    width: 94%;
+}
