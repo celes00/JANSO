@@ -28,3 +28,9 @@
 .c22 img{
     width: 94%;
 }
+
+/*Estilo lines c23*/
+.c23 .line-logos {
+    padding-left: 3vh;
+    padding-right: 3vh
+}
