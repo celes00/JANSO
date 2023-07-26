@@ -40,33 +40,6 @@
 }
 
 /*Estilo our-services c24*/
-/* Estilo para la imagen de fondo */
-/* .image-background {
-    background-image: url("ruta/de/la/imagen.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 200px; /* Ajusta la altura de la imagen */
-   /*  margin-top: 10px;  *//* Ajusta el espaciado superior
-}
-.c24 .row {
-    flex-direction: row;
-}
-#our-services .col-sm-6 {
-    flex-basis: 50%;
-}
-.c24 .col-sm-6 {
-    flex-basis: 50%;
-}
-
-.c24 h2 {
-    margin-left: 0;
-}
-
-.c24 ul {
-    margin-top: 0;
-} .
- */ 
  #our-services{
     background-color: #283267;
  }
