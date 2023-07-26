@@ -91,14 +91,6 @@
     font-size: 7vh;
 }
 
-
-/* .c23 .line-logos {
-    padding-bottom: 7vh;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-} */
-
 .c23 img {
     width: 26vh;
     height: auto;
@@ -113,9 +105,17 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+#our-services .row {/*agregado*/
+    flex-direction: row;
+}
+
+
 .c24 h2{
     font-size:6vh;
     margin-left: 15%;
+    display: inline-block;
+    margin: 0;
+    margin-right: 5px;
 }
 
 .c24 ul{

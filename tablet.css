@@ -1,3 +1,7 @@
+.c2{
+    background: linear-gradient(to left, rgb(4, 48, 114), rgb(147, 179, 226))
+}
+
 /*Estilos C21*/
 .c21 img{
     height: 100%;
@@ -34,3 +38,65 @@
     padding-left: 3vh;
     padding-right: 3vh
 }
+
+/*Estilo our-services c24*/
+/* Estilo para la imagen de fondo */
+/* .image-background {
+    background-image: url("ruta/de/la/imagen.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px; /* Ajusta la altura de la imagen */
+   /*  margin-top: 10px;  *//* Ajusta el espaciado superior
+}
+.c24 .row {
+    flex-direction: row;
+}
+#our-services .col-sm-6 {
+    flex-basis: 50%;
+}
+.c24 .col-sm-6 {
+    flex-basis: 50%;
+}
+
+.c24 h2 {
+    margin-left: 0;
+}
+
+.c24 ul {
+    margin-top: 0;
+} .
+ */ 
+ #our-services{
+    background-color: #283267;
+ }
+
+ .c24{
+    padding-top: 46px;
+ }
+
+ #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start{/*agregado*/
+    flex-direction: column; /*para que quede el our service, una palabra sobre otra*/
+} 
+
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > h2:nth-child(1), #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > h2:nth-child(2){
+    z-index: 2; /* Agregamos un valor de z-index para asegurarnos de que esté delante de la imagen */
+    color: aliceblue;
+}
+
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > div{
+    background-image: url("./img/background-our-service.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px; /* Ajusta la altura de la imagen */
+    margin-top: -134px;  /* Ajusta el espaciado superior*/
+    z-index: 1; /* Aseguramos que la imagen esté detrás del texto "Our Services" */
+}
+
+
+#our-services > div > div.col-12.col-md-8.contenido{
+    color: aliceblue;
+}
+    
+
