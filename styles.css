@@ -4,10 +4,19 @@
     padding: 0;
 }
 
+
+body {
+    background: linear-gradient(to left, rgb(4, 48, 114), rgb(147, 179, 226));
+    font-family: Arial, sans-serif;
+}
+
+
+
+/*     
 .c1 {background-color: aqua;}
 .c2{ background-color: rgb(111, 0, 255);}
 .c3{background-color: darkgoldenrod;}
-
+ */
 
 /*Estilos C21*/
 .card-title {
@@ -45,8 +54,8 @@
 
 .c21 .button {/*estilos boton*/
     text-decoration: none; /* Elimina el subrayado del texto */
-    background-color: #a5e5f5; 
-    color: #000000;
+    background-color: #58eeeb; 
+    color: #032929;
     padding: 1vh;
     border-radius: 1vh;
     margin-left: 9vh;
@@ -64,6 +73,8 @@
     padding-top: 20px;
     padding-right: 0; /*para que la imagen ocupe el 100% del ancho, anula boostrap*/
     padding-left: 0;
+    background-color: #eeeff0;
+    color: #01402E;
 }
 
 .c22 h2{
@@ -148,8 +159,8 @@
 
 .c25 button{
     text-decoration: none; /* Elimina el subrayado del texto */
-    background-color: #a5e5f5; 
-    color: #000000;
+    background-color: #58eeeb;; 
+    color: #032929;
     padding: 1vh;
     border-radius: 1vh;
 }

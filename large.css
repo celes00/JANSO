@@ -1,0 +1,83 @@
+/*Estilos C21*/
+.c21 {
+    height: 84vh;
+}
+    
+.c21 h3 {
+    font-size: 7vh;
+    padding-top: 12vh;
+    padding-left: 6vh;
+}
+
+.c21 h1 {
+    font-size: 10vh;
+    padding-left: 6vh;
+}
+.c21 .button {
+    font-size: 6vh;
+}
+
+/*Estilo about-us c22*/
+.c22 h2 {
+    padding-top: 8vh;
+    font-size: 8vh;
+    padding-left: 23vh;
+}
+.c22 p{
+    font-size: 4vh;
+    padding-left: 6vh;
+}
+
+
+/*Estilo lines c23*/
+#lines{
+    background-image: url("./img/background-our-lines1.jpg");
+    background-size: cover;
+    color: aliceblue;
+    padding-top: 12vh;
+    padding-bottom: 14vh;
+}
+
+/* Estilos para las imágenes de los logos */
+.line-logos a{
+    width: 150px; /* Tamaño original */
+    height: auto;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+  }
+  
+  /* Estilos para el efecto al pasar el cursor sobre las imágenes */
+  .line-logos a:hover{
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+  }
+
+.c23 img {
+    width: 36vh
+}
+
+.c23 h2 {
+    padding-bottom: 17vh;
+    font-size: 11vh;
+}
+
+
+/*Estilo our-services c24*/
+.c24 h2 {
+    font-size: 8vh;
+}
+.c24 ul {
+    font-size: 5vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+
+/*Estilo contact c25*/
+.c25{
+    padding-left: 9vh;
+    padding-right: 9vh;
+}
+
+.c25 button {
+    margin-top: 4vh;
+    font-size: 4vh;
+}
