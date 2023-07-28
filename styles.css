@@ -18,6 +18,25 @@ body {
 .c3{background-color: darkgoldenrod;}
  */
 
+/*Estilos C1*/
+/* Estilo personalizado para el background de la barra de navegación */
+.custom-navbar-bg {
+    background: linear-gradient(to left, rgb(4, 48, 114), rgb(147, 179, 226));
+    font-family: Arial, sans-serif;
+}
+
+/* Para cambiar el color del texto en la barra de navegación */
+#navbarSupportedContent > ul > a:nth-child(1), #navbarSupportedContent > ul > a:nth-child(2),#navbarSupportedContent > ul > a:nth-child(3), #navbarSupportedContent > ul > a:nth-child(4), #navbarSupportedContent > ul > a:nth-child(5) {
+  color: #ffffff; /* Color blanco para el texto */
+  font-family: Arial, sans-serif;
+}
+/* Estilos para la imagen del logo en la barra de navegación */
+.logo-image {
+    /* altura  para la imagen */
+    height: 4em;
+    width: max-content;
+}
+   
 /*Estilos C21*/
 .card-title {
      margin-bottom: 0;
