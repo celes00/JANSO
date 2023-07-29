@@ -36,7 +36,20 @@ body {
     height: 4em;
     width: max-content;
 }
+
+
+.navbar-toggler-icon{/*para cambiar de color las rayitas del menu hamburguesa*/
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#navbarSupportedContent ul{
+    width: min-content; /*para que quede a la izquierda el menu al ser ordenado*/
+}
    
+/* Agregar un margen superior a las secciones para compensar la barra de navegación fija */
+#home, #about-us, #lines, #our-services, #contact{
+    scroll-margin-top: 79px; /* Ajustar este valor según el tamaño de barra de navegación */
+  }
+  
 /*Estilos C21*/
 .card-title {
      margin-bottom: 0;
