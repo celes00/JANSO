@@ -1,0 +1,115 @@
+/*Estilos C1*/
+
+.logo-image {
+    height: 8em;
+}
+
+#navbarSupportedContent > ul > a:nth-child(1), #navbarSupportedContent > ul > a:nth-child(2), #navbarSupportedContent > ul > a:nth-child(3), #navbarSupportedContent > ul > a:nth-child(4), #navbarSupportedContent > ul > a:nth-child(5), #navbarSupportedContent > ul > a:nth-child(6){
+    font-size: 4vh;
+    padding-right: 3vh;
+}
+#navbarSupportedContent ul {
+    margin-right: 20vh;
+}
+/* Agregar un margen superior a las secciones para compensar la barra de navegación fija */
+#home, #about-us, #lines, #our-services, #contact{
+    scroll-margin-top: 120px; /* Ajustar este valor según el tamaño de barra de navegación */
+  }
+/*Estilos C2*/
+
+.c2 {
+    width: fit-content;
+}
+
+
+/*Estilos C21*/
+.c21 {
+    height: 117vh;
+}
+.bg-dark {
+    height: 117vh;
+}
+
+.c21 h3 {
+    font-size: 10vh;
+}
+.c21 h1 {
+    font-size: 14vh;
+}
+.c21 .button {
+    font-size: 8vh;
+}
+
+
+/*Estilo about-us c22*/
+.c22 {
+    height: 117vh;
+}
+
+#about-us > div > div:nth-child(2) {
+    justify-content: flex-start;
+}
+
+
+#lines > div > div:nth-child(2){
+    padding-right: 100px;
+}
+.c22 h2 {
+    font-size: 11vh;
+}
+.c22 p {
+    font-size: 5.5vh;
+}
+
+/*Estilo our-services c24*/
+.c24 ul {
+    font-size: 6vh;
+}
+.c24 h2 {
+    font-size: 14vh;
+}
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > div {
+    height: 52vh;
+    margin-top: -355px;
+}
+
+/*Estilo contact c25*/
+.c25 h2 {
+    font-size: 14vh;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+.c25 h6 {
+    font-size: 7vh;
+    padding-bottom: 52px;
+
+}
+
+.c25 form{
+    font-size: 5vh;
+}
+
+.form-control{
+    font-size: 2rem;
+}
+
+.c25 button{
+    font-size: 6vh;
+}
+
+/*Estilos footer*/
+body > footer{
+    width: 136%;
+}
+
+footer p{
+    font-size: 5vh;
+}
+
+.logo-location, .logo-whatsapp, .logo-correo{
+    width: 4vh;
+}
+.c3 {
+    padding-top: 87px;
+    padding-bottom: 37px;
+}

@@ -6,7 +6,7 @@
 
 
 body {
-    background: linear-gradient(to left, rgb(4, 48, 114), rgb(147, 179, 226));
+    background: linear-gradient(to left, #043072, rgb(147, 179, 226));
     font-family: Arial, sans-serif;
 }
 
@@ -21,15 +21,19 @@ body {
 /*Estilos C1*/
 /* Estilo personalizado para el background de la barra de navegación */
 .custom-navbar-bg {
-    background: linear-gradient(to left, rgb(4, 48, 114), rgb(147, 179, 226));
+    background: linear-gradient(to left, #043072, rgb(147, 179, 226));
     font-family: Arial, sans-serif;
 }
 
 /* Para cambiar el color del texto en la barra de navegación */
-#navbarSupportedContent > ul > a:nth-child(1), #navbarSupportedContent > ul > a:nth-child(2),#navbarSupportedContent > ul > a:nth-child(3), #navbarSupportedContent > ul > a:nth-child(4), #navbarSupportedContent > ul > a:nth-child(5) {
+#navbarSupportedContent > ul > a:nth-child(1), #navbarSupportedContent > ul > a:nth-child(2),#navbarSupportedContent > ul > a:nth-child(3), #navbarSupportedContent > ul > a:nth-child(4), #navbarSupportedContent > ul > a:nth-child(5), #navbarSupportedContent > ul > a:nth-child(6) {
   color: #ffffff; /* Color blanco para el texto */
   font-family: Arial, sans-serif;
 }
+.navbar-nav .nav-link{
+    padding-right: 15px;
+}
+
 /* Estilos para la imagen del logo en la barra de navegación */
 .logo-image {
     /* altura  para la imagen */
@@ -49,7 +53,7 @@ body {
 #home, #about-us, #lines, #our-services, #contact{
     scroll-margin-top: 79px; /* Ajustar este valor según el tamaño de barra de navegación */
   }
-  
+
 /*Estilos C21*/
 .card-title {
      margin-bottom: 0;
@@ -73,15 +77,20 @@ body {
 .c21 h3, h1, a { 
     padding-right: calc(var(--bs-gutter-x) * .5);  /*para que el texto y el boton tenga margenes*/
     padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: 4vh;
 }
 
 .c21 .h1, h1 {
     font-size: 3em;
     margin-bottom: 10vh;
-    margin-top: 4VH;
+    margin-top: 4vh;
 }
-.c21 .h3, h3 {
+ .c21 .h3, h3 {
     margin-top: 3vh;
+} 
+
+.c21 h3{
+    margin-top: 10vh;
 }
 
 .c21 .button {/*estilos boton*/

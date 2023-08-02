@@ -1,0 +1,19 @@
+#home, #about-us, #lines, #our-services, #contact {
+    scroll-margin-top: 65px;
+}
+
+/*Estilos C21*/
+/*acomodo alto div, para luego acomodar alto imagen*/
+.c21{
+    height: 76vh;
+}
+
+
+/*acomodo alto imagen*/
+#home > div > div{
+    height: 76vh;
+}
+
+.c24 {
+    color: aliceblue;
+}

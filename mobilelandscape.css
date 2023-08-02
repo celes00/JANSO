@@ -1,0 +1,62 @@
+
+.c21{
+    margin-top: 60px;
+}
+/* Agregar un margen superior a las secciones para compensar la barra de navegación fija */
+#home, #about-us, #lines, #our-services, #contact{
+    scroll-margin-top: 45px; /* Ajustar este valor según el tamaño de barra de navegación */
+  }
+ .c21 h3 { 
+    margin-top: 1vh;
+} 
+
+
+
+
+/*Estilo about-us c22*/
+#about-us > div > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.c22{
+    height: 100vh;
+}
+
+.c22 img{
+    height: 65%;
+}
+.c22 h2 {
+    padding-top: 4vh;
+}
+
+.c22 p{
+    font-size: 5vh;
+}
+
+
+/*Estilo lines c23*/
+.c23{
+    height: 100vh;
+    margin-bottom: 0vh;
+}
+
+.c23 h2{
+    padding-top: 6vh;
+    font-size: 13vh;
+}
+
+.c23 img{
+    width: 53vh;
+    margin-left: -30%;
+}
+
+
+/*Estilo our-services c24*/
+.c24{
+    height: 100vh;
+}
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start{
+    margin-left: 0px;
+}

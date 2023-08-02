@@ -1,0 +1,37 @@
+body{
+    width: 110%;
+}
+
+/*Estilos C21*/
+.c21 {
+    height: 93vh;
+}
+#home {
+    width: max-content;
+}
+
+
+/*Estilos C22*/
+
+.c22 img {
+    padding-top: 114px;
+}
+
+.c22 h6 {
+    padding-right: 1vh;
+}
+/* Estoy modificando este archivo, seguir con el width que no ocupa etc de cero nav tambien, y tablet que sigue y luego destokp. 
+luego ver eso que se mueve un toque con el scroll el nav y queda escondido */
+
+/*Estilo lines c23*/
+.c23 img {
+    width: 45vh;
+    margin-left: -54%;
+}
+
+
+/*Estilos footer*/
+body > footer{
+    background: linear-gradient(to left, #043072, rgb(147, 179, 226));
+}
+

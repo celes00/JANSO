@@ -1,0 +1,44 @@
+/*Estilos C21*/
+.c21 {
+    height: 52vh;
+}
+
+/*Estilos C22*/
+.c22 h2 {
+    padding-top: 4vh;
+    font-size: 4vh;
+}
+
+.c22 h6 {
+    padding-left: 6vh;
+    padding-right: 0vh;
+    font-size: 2vh;
+}
+
+.c22 img {
+    padding-top: 90px;
+}
+
+/*Estilos C23*/
+#lines > div > div:nth-child(2) > div > div{
+    flex-direction: column; /*para que los logos esten verticales*/
+    align-items: center;
+    padding-bottom: 12vh;
+}
+
+
+/*Estilos C24*/
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start{
+    margin-left: -11vh; /*corro a la izquierda el titulo*/
+    margin-bottom: 4vh;
+}
+
+#our-services > div > div.col-12.col-md-8.contenido > ul > li:nth-child(1), #our-services > div > div.col-12.col-md-8.contenido > ul > li:nth-child(2),
+#our-services > div > div.col-12.col-md-8.contenido > ul > li:nth-child(3), #our-services > div > div.col-12.col-md-8.contenido > ul > li:nth-child(4),
+#our-services > div > div.col-12.col-md-8.contenido > ul > li:nth-child(5), #our-services > div > div.col-12.col-md-8.contenido > ul > li:nth-child(6){
+    padding-bottom: 2vh; /*para espaciar los li entre ellos*/
+}
+
+#our-services > div > div.col-12.col-md-8.contenido{
+    margin-bottom: 6vh;
+}

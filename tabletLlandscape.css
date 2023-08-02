@@ -1,0 +1,19 @@
+.c2{
+    width: fit-content;
+}
+
+.c2 {
+    width: 136%;
+}
+
+
+#home{
+    width: auto;
+}
+
+
+
+
+#about-us > div > div:nth-child(2){
+    justify-content: center;
+}

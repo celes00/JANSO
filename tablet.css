@@ -50,11 +50,13 @@
 
  #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start{/*agregado*/
     flex-direction: column; /*para que quede el our service, una palabra sobre otra*/
+    overflow: hidden; /* Agregamos esta propiedad para ocultar el contenido que sobresale */
 } 
 
 #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > h2:nth-child(1), #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > h2:nth-child(2){
     z-index: 2; /* Agregamos un valor de z-index para asegurarnos de que esté delante de la imagen */
     color: aliceblue;
+    padding-top: 20px;
 }
 
 #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > div{

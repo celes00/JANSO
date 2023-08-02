@@ -1,0 +1,57 @@
+/*Estilos C21*/
+.c21 h3{
+    margin-top: 12vh;
+    font-size: 4vh;
+}
+
+.c21 .h1, h1{
+    font-size: 7vh;
+}
+
+.c21 .button{
+    font-size: 3vh;
+}
+
+
+
+/*Estilo about-us c22*/
+.c22 h2{
+    font-size: 4vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-bottom: -1vh;
+}
+
+.c22 h6 {
+    padding-left: 3vh;
+    padding-right: 0vh;
+    font-size: 2vh;
+}
+
+.c22 img{
+    padding-top: 85px;
+}
+
+/*Estilo lines c23*/
+.c23 .row{
+    flex-direction: column;
+    align-content: center;
+}
+
+.c23 img{
+    width: 32vh;
+}
+
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start{
+    margin-top: 4vh;
+    margin-left: -6vh;
+}
+
+/*Estilo contact c25*/
+.c25 h2 {
+    padding-top: 6vh;
+}
+
+.c25 button {
+    font-size: 3vh;
+}

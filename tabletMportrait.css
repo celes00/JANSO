@@ -1,0 +1,90 @@
+
+/*Estilos C1*/
+body > header > div > div > nav > div > button{
+    margin-right: 5vh;
+}
+
+.navbar-nav .nav-link{
+    padding-right: 76px;
+}
+
+.logo-image{
+    height: 5em;
+}
+
+#navbarSupportedContent > ul > a:nth-child(1), #navbarSupportedContent > ul > a:nth-child(2),#navbarSupportedContent > ul > a:nth-child(3), #navbarSupportedContent > ul > a:nth-child(4), #navbarSupportedContent > ul > a:nth-child(5) {
+    margin-top: 30px;
+}
+
+/* Agregar un margen superior a las secciones para compensar la barra de navegación fija */
+#home, #about-us, #lines, #our-services, #contact{
+    scroll-margin-top: 45px; /* Ajustar este valor según el tamaño de barra de navegación */
+  }
+
+/*Estilos C21*/
+.c21 {
+    height: 80vh;
+}
+
+#home > div > div {
+    height: 81vh;
+}
+
+.c21 img {
+    height: 100%;
+    width: fit-content;
+    max-width: fit-content;
+}
+
+
+/*Estilo about-us c22*/
+
+.c22 h2 {
+    font-size: 5vh;
+}
+.c22 h6 {
+    padding-left: 3vh;
+    padding-right: 0vh;
+    font-size: 2.5vh;
+}
+.c22 img {
+    padding-top: 240px;
+}
+
+/*Estilo our-services c24*/
+#our-services .row {
+    flex-direction: column;
+}
+.c24 .image-background{
+    display: none;
+}
+#our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start{
+    margin-left: 0vh;
+    width: 100%;
+}
+
+#our-services > div > div.col-12.col-md-8.contenido{
+    width: 100%;
+}
+
+
+
+.c25 h2{
+    font-size: 7vh;
+}
+.c25 h6{
+    font-size: 3.5vh;
+} 
+.form-control{
+    font-size: 2rem;
+}
+#contact > form > div.mb-3.form-check > label{
+    font-size: 2vh;
+}
+#contact > form > div.d-grid.gap-2.col-6.mx-auto{
+    margin-bottom: 3vh;
+}
+/*Estilos footer*/
+body > footer > div > div{
+    font-size: 2vh;
+}
