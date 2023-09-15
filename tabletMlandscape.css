@@ -31,13 +31,13 @@
 }
 
 .c21 h3 {
-    font-size: 8vh;
+    font-size: 6vh;
 }
 .c21 h1 {
-    font-size: 12vh;
+    font-size: 10vh;
 }
 .c21 .button {
-    font-size: 6vh;
+    font-size: 4vh;
 }
 
 
@@ -55,18 +55,18 @@
     padding-right: 100px;
 }
 .c22 h2 {
-    font-size: 9vh;
+    font-size: 7vh;
 }
 .c22 p {
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 /*Estilo our-services c24*/
 .c24 ul {
-    font-size: 5vh;
+    font-size: 3vh;
 }
 .c24 h2 {
-    font-size: 12vh;
+    font-size: 10vh;
 }
 .c24 li{
     margin-bottom: 2vh;
@@ -78,18 +78,18 @@
 
 /*Estilo contact c25*/
 .c25 h2 {
-    font-size: 10vh;
+    font-size: 8vh;
     padding-top: 40px;
     margin-bottom: 10px;
 }
 .c25 h6 {
-    font-size: 5vh;
+    font-size: 3vh;
     padding-bottom: 10px;
 
 }
 
 .c25 form{
-    font-size: 2vh;
+    font-size: 1vh;
 }
 
 .form-control{
@@ -97,7 +97,7 @@
 }
 
 .c25 button{
-    font-size: 4vh;
+    font-size: 3vh;
     margin-top: 1vh;
 }
 
@@ -107,7 +107,7 @@ body > footer{
 }
 
 footer p{
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 .logo-location, .logo-whatsapp, .logo-correo{
