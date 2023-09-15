@@ -1,14 +1,12 @@
 body{
-    width: 110%;
+    width: 100%;
 }
 
 /*Estilos C21*/
 .c21 {
     height: 93vh;
 }
-#home {
-    width: max-content;
-}
+
 
 
 /*Estilos C22*/
@@ -35,3 +33,36 @@ body > footer{
     background: linear-gradient(to left, #043072, rgb(147, 179, 226));
 }
 
+/*modifico para ajustar a pantalla*/
+.c2{
+    width: 100%;
+}
+
+
+#home{
+    width: auto;
+}
+
+
+
+
+#about-us > div > div:nth-child(2){
+    justify-content: center;
+}
+
+/*#about-us > div{
+    width: 90%;
+}
+
+#lines > div > div:nth-child(2){
+    width: 90%;
+}
+
+#our-services > div{
+    width: 90%;
+}
+
+body > footer{
+    width: 90%;
+}
+*/

@@ -13,7 +13,7 @@
 #about-us > div > div:nth-child(2){
     justify-content: center;
 }
-
+/*
 #about-us > div{
     width: 90%;
 }
@@ -28,4 +28,4 @@
 
 body > footer{
     width: 90%;
-}
+}*/
