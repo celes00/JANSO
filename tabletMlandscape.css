@@ -58,7 +58,7 @@
     font-size: 7vh;
 }
 .c22 p {
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 /*Estilo our-services c24*/
@@ -117,3 +117,4 @@ footer p{
     padding-top: 87px;
     padding-bottom: 37px;
 }
+#about-us > div > div:nth-child(1) > h6 > p:nth-child(1)
