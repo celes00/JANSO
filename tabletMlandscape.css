@@ -1,7 +1,7 @@
 /*Estilos C1*/
 
 .logo-image {
-    height: 8em;
+    height: 4em;
 }
 
 #navbarSupportedContent > ul > a:nth-child(1), #navbarSupportedContent > ul > a:nth-child(2), #navbarSupportedContent > ul > a:nth-child(3), #navbarSupportedContent > ul > a:nth-child(4), #navbarSupportedContent > ul > a:nth-child(5), #navbarSupportedContent > ul > a:nth-child(6){
@@ -13,7 +13,7 @@
 }
 /* Agregar un margen superior a las secciones para compensar la barra de navegación fija */
 #home, #about-us, #lines, #our-services, #contact{
-    scroll-margin-top: 120px; /* Ajustar este valor según el tamaño de barra de navegación */
+    scroll-margin-top: 50px; /* Ajustar este valor según el tamaño de barra de navegación */
   }
 /*Estilos C2*/
 
@@ -31,13 +31,13 @@
 }
 
 .c21 h3 {
-    font-size: 10vh;
+    font-size: 8vh;
 }
 .c21 h1 {
-    font-size: 14vh;
+    font-size: 12vh;
 }
 .c21 .button {
-    font-size: 8vh;
+    font-size: 6vh;
 }
 
 
@@ -55,51 +55,55 @@
     padding-right: 100px;
 }
 .c22 h2 {
-    font-size: 11vh;
+    font-size: 9vh;
 }
 .c22 p {
-    font-size: 5.5vh;
+    font-size: 5vh;
 }
 
 /*Estilo our-services c24*/
 .c24 ul {
-    font-size: 6vh;
+    font-size: 5vh;
 }
 .c24 h2 {
-    font-size: 14vh;
+    font-size: 12vh;
+}
+.c24 li{
+    margin-bottom: 2vh;
 }
 #our-services > div > div.col-12.col-md-4.titulo.d-flex.justify-content-center.align-items-center.align-sm-items-start > div {
-    height: 52vh;
-    margin-top: -355px;
+    height: 50vh;
+    margin-top: -250px;
 }
 
 /*Estilo contact c25*/
 .c25 h2 {
-    font-size: 14vh;
-    padding-top: 80px;
-    margin-bottom: 50px;
+    font-size: 10vh;
+    padding-top: 40px;
+    margin-bottom: 10px;
 }
 .c25 h6 {
-    font-size: 7vh;
-    padding-bottom: 52px;
+    font-size: 5vh;
+    padding-bottom: 10px;
 
 }
 
 .c25 form{
-    font-size: 5vh;
+    font-size: 2vh;
 }
 
 .form-control{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .c25 button{
-    font-size: 6vh;
+    font-size: 4vh;
+    margin-top: 1vh;
 }
 
 /*Estilos footer*/
 body > footer{
-    width: 136%;
+    width: 100%;
 }
 
 footer p{
