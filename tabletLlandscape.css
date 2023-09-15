@@ -1,9 +1,5 @@
 .c2{
-    width: fit-content;
-}
-
-.c2 {
-    width: 136%;
+    width: 100%;
 }
 
 
@@ -16,4 +12,20 @@
 
 #about-us > div > div:nth-child(2){
     justify-content: center;
+}
+
+#about-us > div{
+    width: 90%;
+}
+
+#lines > div > div:nth-child(2){
+    width: 90%;
+}
+
+#our-services > div{
+    width: 90%;
+}
+
+body > footer{
+    width: 90%;
 }
