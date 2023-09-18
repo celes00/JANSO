@@ -44,8 +44,8 @@
                                 <a class="nav-link me-auto active navbar-brand" aria-current="page" href="#about-us">About Us</a>
                                 <a class="nav-link  me-auto active navbar-brand" aria-current="page" href="#lines">Our Lines</a>
                                 <a class="nav-link me-auto active navbar-brand" aria-current="page" href="#our-services">Our Services</a>
-                                <a data-bs-dismiss="collapse" class="nav-link me-auto active navbar-brand" aria-current="page" href="#contact">Contact Us</a>
-                            </ul>
+                                <a data-bs-dismiss="collapse" class="nav-link me-auto active navbar-brand" aria-current="page" href="#contact2">Contact Us</a>
+                            </ul> <!-- "#contact" reemplazar contact2 cuando se reestabelezca el formulario -->
                         </div>
                     </div>
                 </nav>
@@ -64,7 +64,7 @@
                         <div class="card-img-overlay">
                           <h3 class="card-title">Sales Representative</h3>
                           <h1>Local representation<br>that makes a difference.</h1>
-                          <a href="#contact" class="button">I want to be represented</a>
+                          <a href=  "#contact2" class="button">I want to be represented</a> <!-- "#contact" reemplazar contact2 cuando se reestabelezca el formulario -->
                         </div>
                       </div>
                 </div>
@@ -125,22 +125,22 @@
                     </div>       
                 </div>
             </div>
-            <div id="contact" class="container c25">
+            <!-- <div id="contact" class="container c25">
                 <h2>Contact Us!</h2>
                 <h6>Leave your comments and we'll reach out to you.</h6>
        
-                   <form action="./contact.php" method="post"> <!-- mmm ver despues como se envia... -->
-                       <div class="mb-3">
-                           <!-- <label for="nombre" class="form-label"></label> -->
-                           <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Your name" required required>
+                   <form action="./contact.php" method="post"> COMENTADO mmm ver despues como se envia... -->
+                   <!--     <div class="mb-3">
+                           <comentado label for="nombre" class="form-label"></comentado> -->
+                          <!--  <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Your name" required required>
                        </div>
                        <div class="mb-3">
-                           <!-- <label for="email" class="form-label"></label> -->
-                           <input type="email" class="form-control" id="email" name="correo" placeholder="youremailo@example.com" required>
+                          < comentado label for="email" class="form-label"></> -->
+                       <!--     <input type="email" class="form-control" id="email" name="correo" placeholder="youremailo@example.com" required>
                        </div>
                        <div class="mb-3">
-                           <!-- <label for="company" class="form-label"></label> -->
-                           <input type="text" class="form-control" name="company" id="company" placeholder="company name" required required>
+                           <comentado label for="company" class="form-label"></comentado> -->
+                    <!--        <input type="text" class="form-control" name="company" id="company" placeholder="company name" required required>
                        </div>
                        <div class="mb-3"></label>
                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="message" required required></textarea>
@@ -153,11 +153,11 @@
                        <button type="submit" class="btn btn-outline-success ">Send</button>
                        </div>
                    </form>
-               </div>
+               </div> OJO LOQIE TOEME EL ROJO DELANTE ES PARA QUE SIGA COMENTADO-->
         </div>
     </main>
     <footer> <!-- datos contacto c31, firma c32 -->
-        <div class="container-fluid c3">
+        <div id="contact2"class="container-fluid c3"> <!-- El contact2, sacarlo cuando se solucione y este visible el formulario y redireccionar el menu -->
             <div class="row text-center"> <!-- alineo el texto con text-center -->
                 <div class="col-12 location ">
                     <a href="https://goo.gl/maps/gnU2oVcP7VWjVvoM9" target="_blank">
